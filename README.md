@@ -22,9 +22,8 @@ NeuroSim Engine is a modular AI-based system designed to simulate human-like dec
 
 ---
 
-## 📊 System Structure
 
-```mermaid
+
 graph TD;
     Traits --> Emotions
     Emotions --> Desires
