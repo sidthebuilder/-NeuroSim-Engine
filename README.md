@@ -32,24 +32,21 @@ graph TD;
     DecisionAI --> Actions
     Actions --> FeedbackLoop
     FeedbackLoop --> Emotions
-
-
-📂 Project Structure
+📁 Project Structure
 vbnet
 Copy
 Edit
-📁 Scripts/                     → Core logic and behavior modules
-📁 Testing/                    → Test scenes and interaction flows
-📄 DesignDocument-Project.pdf  → AI structure, rules, and architecture
-📄 README.md                   → You're here!
-
-
+📁 Scripts/                     → Core logic and behavior modules  
+📁 Testing/                    → Test scenes and interaction flows  
+📄 DesignDocument-Project.pdf  → AI structure, rules, and architecture  
+📄 README.md                   → You're here!  
 🔗 Live Development
 ✨ This project is maintained by a freelance full-stack developer on Upwork.
-💼 Connect: shashankk51 on Upwork
+💼 Hire Me
+
 📜 License & Attribution
 This project was originally inspired by BlackJar72's CharacterEngine.
-Major sections have been restructured, redesigned, and extended significantly.
+Major sections have been restructured, extended, and professionally maintained under a new development approach.
 
 This repository uses the MIT License — you are free to use, modify, and distribute this project with proper attribution.
 
@@ -58,12 +55,10 @@ Copy
 Edit
 © 2025 Shashank (sidthebuilder)
 
-MIT License — Attribution required for any reuse or remix of this project.
+MIT License — Attribution required for any reuse or remix of this project.  
 Original concept credit: BlackJar72 (partial design influence only)
-
 🧠 Vision
-"By 2030, every NPC should feel human."
+“By 2030, every NPC should feel human.”
 NeuroSim aims to bridge emotion, cognition, and decision-making — all in one unified simulation layer.
-
 ---
 © 2025 Shashank | Built with inspiration from BlackJar72 (partial design influence). All further development and extensions by Shashank.
