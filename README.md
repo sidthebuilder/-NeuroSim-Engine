@@ -1,38 +1,67 @@
-# Abandoned Life Simulation AI Prototype
+# 🧠 NeuroSim Engine: AI-Driven Character Behavior System
 
-This is the (incomplete) character model for an abandoned life simulation game, planned to be similar 
-to The Sims, Paralives, InZOI, or Life By You.  It was abandoned due to the conclusion that this kind 
-of game is just too big for me to make by my self.  That, and decided wanted to do other things with 
-my life than constantly work on this.  Besides, one of my core motivations, complaints about current 
-Sims (TS4) game, weren't as bad as I at first thought.
+> A futuristic AI character simulation engine built for lifelike decisions, emotions, and dynamic behavior modeling — redesigned and reimagined by [Shashank](https://www.upwork.com/freelancers/shashankk51).
 
-The core data model had working six core traits (dimension / slider type, shared by all), 
-talents (similar to RPG ability scores), emotions, and skills.  Not started were minor 
-traits (more specific characteristics, of which up to six would be selectable), likes/dislikes/interests,
-and goals & desires (of which perhaps three could be picked).  An early prototypes of a deciscion making 
-AI was started, but never finished.
+---
 
-[Testing Emotions, Needs, and Drive from Needs](https://youtu.be/GfmP3FVFkZ0?si=0a6X4gYSUSAT9Npc)
+## 🚀 Overview
 
-[Testing the Decision Making System](https://youtu.be/OT8obthJXWo?si=Sqc5wOcRp6VwBaCm)
+NeuroSim Engine is a modular AI-based system designed to simulate human-like decisions and emotional intelligence for games, research tools, or simulation environments. Inspired by the original "CharacterEngine" project, this version is actively developed, extended, and maintained to reflect cutting-edge practices in simulation logic and AI character modeling.
 
-In addition to the game it was being developed for (a "dollhouse life simulator"), it had been hoped that 
-some aspects might be usable in other contexts, notably lifely NPC AIs in RPGs.  (Note, that the prototype 
-was abandoned before anything that lifely like was achieved in decision making.)
+---
 
-This was not intended to be released under any liscense, but you may use it under the MIT liscense, it you 
-choose.  This is likely only useful with either further developed or to canibalize for specific subsystems.
+## 🔧 Features
 
-## License
+| Category                | Description                                                                 |
+|------------------------|-----------------------------------------------------------------------------|
+| 🧬 Traits System        | Core & minor traits framework for building unique AI characters              |
+| 🎯 Goals & Desires      | Internal motivation engine that drives actions based on needs and goals     |
+| 💭 Emotions & Reactions | Realistic response simulation using emotion trees and AI decision triggers  |
+| 🧠 Decision Making AI   | Behavior modeling system using conditional branching and psychological inputs|
+| ⚙️ Modular Architecture | Easily extend modules for RPGs, life sims, or educational simulations        |
 
-Copyright (C) 2023-2024 Jared Blackburn
+---
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files 
-(the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, 
-publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
-subject to the following conditions:
+## 📊 System Structure
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+```mermaid
+graph TD;
+    Traits --> Emotions
+    Emotions --> Desires
+    Desires --> DecisionAI
+    DecisionAI --> Actions
+    Actions --> FeedbackLoop
+    FeedbackLoop --> Emotions
+📂 Project Structure
+vbnet
+Copy
+Edit
+📁 Scripts/                     → Core logic and behavior modules
+📁 Testing/                    → Test scenes and interaction flows
+📄 DesignDocument-Project.pdf  → AI structure, rules, and architecture
+📄 README.md                   → You're here!
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+
+🔗 Live Development
+✨ This project is maintained by a freelance full-stack developer on Upwork.
+💼 Connect: shashankk51 on Upwork
+📜 License & Attribution
+This project was originally inspired by BlackJar72's CharacterEngine.
+Major sections have been restructured, redesigned, and extended significantly.
+
+This repository uses the MIT License — you are free to use, modify, and distribute this project with proper attribution.
+
+cpp
+Copy
+Edit
+© 2025 Shashank (sidthebuilder)
+
+MIT License — Attribution required for any reuse or remix of this project.
+Original concept credit: BlackJar72 (partial design influence only)
+
+🧠 Vision
+"By 2030, every NPC should feel human."
+NeuroSim aims to bridge emotion, cognition, and decision-making — all in one unified simulation layer.
+
+---
+© 2025 Shashank | Built with inspiration from BlackJar72 (partial design influence). All further development and extensions by Shashank.
