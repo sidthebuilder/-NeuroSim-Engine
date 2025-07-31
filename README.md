@@ -1,6 +1,6 @@
 # 🧠 NeuroSim Engine: AI-Driven Character Behavior System
 
-> A futuristic AI character simulation engine built for lifelike decisions, emotions, and dynamic behavior modeling — redesigned and reimagined by [Shashank](https://www.upwork.com/freelancers/shashankk51).
+> A futuristic AI character simulation engine built for lifelike decisions, emotions, and dynamic behavior modeling redesigned and reimagined by [Shashank](https://www.upwork.com/freelancers/shashankk51).
 
 ---
 
@@ -62,16 +62,13 @@ Edit
 This project was originally inspired by BlackJar72's CharacterEngine.  
 Major sections have been **restructured**, **extended**, and **professionally maintained** under a new development approach.
 
-This repository uses the **MIT License** — you are free to use, modify, and distribute this project with proper attribution.
+This repository uses the **MIT License** you are free to use, modify, and distribute this project with proper attribution.
 
 © 2025 Shashank (sidthebuilder)
 
 MIT License — Attribution required for any reuse or remix of this project.
 Original concept credit: BlackJar72 (partial design influence only)
 
-yaml
-Copy
-Edit
 
 ---
 
