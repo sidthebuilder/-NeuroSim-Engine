@@ -66,7 +66,7 @@ This repository uses the **MIT License** you are free to use, modify, and distri
 
 © 2025 Shashank (sidthebuilder)
 
-MIT License — Attribution required for any reuse or remix of this project.
+MIT License Attribution required for any reuse or remix of this project.
 Original concept credit: BlackJar72 (partial design influence only)
 
 
@@ -75,4 +75,4 @@ Original concept credit: BlackJar72 (partial design influence only)
 ## 🧠 Vision
 
 > “By 2030, every NPC should feel human.”  
-NeuroSim aims to bridge emotion, cognition, and decision-making — all in one unified simulation layer.
+NeuroSim aims to bridge emotion, cognition, and decision-making all in one unified simulation layer.
